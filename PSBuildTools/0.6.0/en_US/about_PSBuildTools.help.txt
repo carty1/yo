@@ -1,0 +1,11 @@
+PSTOPIC
+	about_PSBuildTools
+
+SHORT DESCRIPTION
+	PSBuildTools provides a set of helpful build tools through PowerShell functions
+
+LONG DESCRIPTION
+	PSBuildTools provides a set of helpful build tools through PowerShell functions
+
+DETAILED DESCRIPTION
+	This is a rudimentary module that exposes build tooling.
