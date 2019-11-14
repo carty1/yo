@@ -16,7 +16,7 @@ function Assert-Module
             Save-Module -Name $Name -RequiredVersion $Version -Path $Path -Force -ErrorAction Stop
         }
 
-        $modulePath = "$moduleFolder\$Name.psd1"
+        $modulePath = ((Get-ChildItem -Path $moduleFolder -Recurse -Filter "$Name.psd1")[0].FullName)
         Import-Module $modulePath -Global -ErrorAction Stop
     }
 }
